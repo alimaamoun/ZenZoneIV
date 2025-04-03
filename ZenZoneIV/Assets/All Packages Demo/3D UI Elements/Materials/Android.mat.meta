@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b46e6ce175985a345b57ef5f4cb41db0
+timeCreated: 1463032401
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 97726
+  packageName: All Packages Demo
+  packageVersion: 1.1
+  assetPath: Assets/All Packages Demo/3D UI Elements/Materials/Android.mat
+  uploadId: 203100
