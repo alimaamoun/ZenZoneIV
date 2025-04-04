@@ -1110,6 +1110,17 @@
                 },
                 {
                     "name": "",
+                    "id": "8373268d-f7a1-4f5c-b7d0-8628fc5651e9",
+                    "path": "<HandInteraction>{LeftHand}/pinchTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Activate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "3b8b1b59-2fdc-4998-8259-50341075d9a2",
                     "path": "<XRController>{LeftHand}/{Trigger}",
                     "interactions": "",
@@ -2192,6 +2203,17 @@
                     "name": "",
                     "id": "fa59aed1-ae0b-4074-a58c-294b85f46228",
                     "path": "<XRController>{RightHand}/{TriggerButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Activate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "70e0a724-10ef-460c-bf45-d8130509c8a9",
+                    "path": "<HandInteraction>{RightHand}/pinchTouched",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
