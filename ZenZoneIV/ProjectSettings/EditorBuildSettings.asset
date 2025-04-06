@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/BasicScene.unity
     guid: bc761d9a86b33554f85fd11bb1f87ba3
+  - enabled: 1
+    path: Assets/ZenZoneIV/Scenes/Cody Changes/Spring Island c.unity
+    guid: 83ab9c83c62727a41bdeff7d3d5cd7d1
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e3aee76b9372917449aef639e2f74814,
       type: 2}
