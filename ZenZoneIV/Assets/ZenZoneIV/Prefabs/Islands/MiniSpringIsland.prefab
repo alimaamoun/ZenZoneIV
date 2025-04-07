@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -1693020767179229761}
   - component: {fileID: -983410494083236035}
   m_Layer: 0
-  m_Name: MiniIsland
+  m_Name: MiniSpringIsland
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
