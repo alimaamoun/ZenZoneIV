@@ -9,10 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7334184863566175154}
+  - component: {fileID: 6566078069954394401}
   - component: {fileID: 3983916620403077958}
   - component: {fileID: 6492999680771744052}
   - component: {fileID: 1266860176747980713}
-  - component: {fileID: 6566078069954394401}
   m_Layer: 0
   m_Name: MiniFairyland
   m_TagString: Untagged
@@ -36,6 +36,27 @@ Transform:
   - {fileID: 1942983336411320687}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6566078069954394401
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3237456738179192582}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 411.3631, y: 563.1424, z: 324.01428}
+  m_Center: {x: 6.8549714, y: 270.50977, z: -51.0209}
 --- !u!114 &3983916620403077958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -134,27 +155,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: 
---- !u!65 &6566078069954394401
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3237456738179192582}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 411.3631, y: 563.1424, z: 324.01428}
-  m_Center: {x: 6.8549714, y: 270.50977, z: -51.0209}
 --- !u!1001 &2124683563624412804
 PrefabInstance:
   m_ObjectHideFlags: 0

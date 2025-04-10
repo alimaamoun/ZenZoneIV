@@ -1,0 +1,273 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &632427933953506279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3036832454775291470}
+  - component: {fileID: 2563762297505500591}
+  m_Layer: 0
+  m_Name: Carousel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3036832454775291470
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632427933953506279}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.123, y: 0.188, z: 3.408}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8183358426044103512}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2563762297505500591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632427933953506279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65f0d19635b3a743ad254334bf89778, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  centerPoint: {fileID: 3036832454775291470}
+  radius: 1.5
+  cards:
+  - {fileID: 3912214816308038728}
+  - {fileID: 6191052757963598898}
+  - {fileID: 828390202636714245}
+  - {fileID: 7938292006061447585}
+  player: {fileID: 0}
+  currentAngleOffset: 0
+  spinVelocity: 0
+  friction: 1.21
+--- !u!1001 &5570154256556711593
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8183358426044103512}
+    m_Modifications:
+    - target: {fileID: 979799891171138433, guid: 44e9c5e462d0579478fae48cdf0a192b,
+        type: 3}
+      propertyPath: carouselManager
+      value: 
+      objectReference: {fileID: 2563762297505500591}
+    - target: {fileID: 5058141928330239916, guid: 44e9c5e462d0579478fae48cdf0a192b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.40376377
+      objectReference: {fileID: 0}
+    - target: {fileID: 5058141928330239916, guid: 44e9c5e462d0579478fae48cdf0a192b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5227615
+      objectReference: {fileID: 0}
+    - target: {fileID: 5058141928330239916, guid: 44e9c5e462d0579478fae48cdf0a192b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.22192931
+      objectReference: {fileID: 0}
+    - target: {fileID: 5058141928330239916, guid: 44e9c5e462d0579478fae48cdf0a192b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.3901337
+      objectReference: {fileID: 0}
+    - target: {fileID: 5058141928330239916, guid: 44e9c5e462d0579478fae48cdf0a192b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5058141928330239916, guid: 44e9c5e462d0579478fae48cdf0a192b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9207582
+      objectReference: {fileID: 0}
+    - target: {fileID: 5058141928330239916, guid: 44e9c5e462d0579478fae48cdf0a192b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5058141928330239916, guid: 44e9c5e462d0579478fae48cdf0a192b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5058141928330239916, guid: 44e9c5e462d0579478fae48cdf0a192b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -134.074
+      objectReference: {fileID: 0}
+    - target: {fileID: 5058141928330239916, guid: 44e9c5e462d0579478fae48cdf0a192b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7233968407187425674, guid: 44e9c5e462d0579478fae48cdf0a192b,
+        type: 3}
+      propertyPath: m_Name
+      value: MiniIcelandia
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 44e9c5e462d0579478fae48cdf0a192b, type: 3}
+--- !u!4 &828390202636714245 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5058141928330239916, guid: 44e9c5e462d0579478fae48cdf0a192b,
+    type: 3}
+  m_PrefabInstance: {fileID: 5570154256556711593}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7641423862771956165
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3036832454775291470}
+    m_Modifications:
+    - target: {fileID: 14431787784548209, guid: 6679ed0133339d543930500e36466839,
+        type: 3}
+      propertyPath: carouselManager
+      value: 
+      objectReference: {fileID: 2563762297505500591}
+    - target: {fileID: 87789800813098852, guid: 6679ed0133339d543930500e36466839,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 441.53354
+      objectReference: {fileID: 0}
+    - target: {fileID: 87789800813098852, guid: 6679ed0133339d543930500e36466839,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 209.70534
+      objectReference: {fileID: 0}
+    - target: {fileID: 87789800813098852, guid: 6679ed0133339d543930500e36466839,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -51.020893
+      objectReference: {fileID: 0}
+    - target: {fileID: 1989161283378332317, guid: 6679ed0133339d543930500e36466839,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.38072744
+      objectReference: {fileID: 0}
+    - target: {fileID: 1989161283378332317, guid: 6679ed0133339d543930500e36466839,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.83576155
+      objectReference: {fileID: 0}
+    - target: {fileID: 1989161283378332317, guid: 6679ed0133339d543930500e36466839,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.089134
+      objectReference: {fileID: 0}
+    - target: {fileID: 1989161283378332317, guid: 6679ed0133339d543930500e36466839,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1989161283378332317, guid: 6679ed0133339d543930500e36466839,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1989161283378332317, guid: 6679ed0133339d543930500e36466839,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1989161283378332317, guid: 6679ed0133339d543930500e36466839,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1989161283378332317, guid: 6679ed0133339d543930500e36466839,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1989161283378332317, guid: 6679ed0133339d543930500e36466839,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1989161283378332317, guid: 6679ed0133339d543930500e36466839,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2280123670222663629, guid: 6679ed0133339d543930500e36466839,
+        type: 3}
+      propertyPath: carouselManager
+      value: 
+      objectReference: {fileID: 2563762297505500591}
+    - target: {fileID: 5171293753860094500, guid: 6679ed0133339d543930500e36466839,
+        type: 3}
+      propertyPath: carouselManager
+      value: 
+      objectReference: {fileID: 2563762297505500591}
+    - target: {fileID: 5457320354515397100, guid: 6679ed0133339d543930500e36466839,
+        type: 3}
+      propertyPath: sceneName
+      value: Fairy Island
+      objectReference: {fileID: 0}
+    - target: {fileID: 7185915605412481209, guid: 6679ed0133339d543930500e36466839,
+        type: 3}
+      propertyPath: m_Name
+      value: Islands
+      objectReference: {fileID: 0}
+    - target: {fileID: 8136062740624453794, guid: 6679ed0133339d543930500e36466839,
+        type: 3}
+      propertyPath: carouselManager
+      value: 
+      objectReference: {fileID: 2563762297505500591}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 1989161283378332317, guid: 6679ed0133339d543930500e36466839,
+        type: 3}
+      insertIndex: 2
+      addedObject: {fileID: 828390202636714245}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6679ed0133339d543930500e36466839, type: 3}
+--- !u!4 &3912214816308038728 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6647647446182180237, guid: 6679ed0133339d543930500e36466839,
+    type: 3}
+  m_PrefabInstance: {fileID: 7641423862771956165}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6191052757963598898 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4602893408332699127, guid: 6679ed0133339d543930500e36466839,
+    type: 3}
+  m_PrefabInstance: {fileID: 7641423862771956165}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7938292006061447585 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 297712569499164772, guid: 6679ed0133339d543930500e36466839,
+    type: 3}
+  m_PrefabInstance: {fileID: 7641423862771956165}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8183358426044103512 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1989161283378332317, guid: 6679ed0133339d543930500e36466839,
+    type: 3}
+  m_PrefabInstance: {fileID: 7641423862771956165}
+  m_PrefabAsset: {fileID: 0}

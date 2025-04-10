@@ -48,6 +48,7 @@ public class SceneSelector : MonoBehaviour
         //Wait for asynchronous scene to fully load
         while (!asyncLoad.isDone)
         {
+            //loading or zoom in effect 
             yield return null;
         }
     }
