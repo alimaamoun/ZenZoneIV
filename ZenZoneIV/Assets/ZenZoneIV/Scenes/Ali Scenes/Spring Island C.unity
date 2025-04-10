@@ -1780,7 +1780,7 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
-  m_FarAttachMode: 0
+  m_FarAttachMode: 1
 --- !u!1 &618188718
 GameObject:
   m_ObjectHideFlags: 0
@@ -2546,7 +2546,7 @@ PrefabInstance:
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2812,7 +2812,7 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
-  m_FarAttachMode: 0
+  m_FarAttachMode: 1
 --- !u!4 &688950551 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4058037651045720570, guid: 216411d97f5a68f4a87e27e0d0ade2d7,
@@ -3003,7 +3003,7 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
-  m_FarAttachMode: 0
+  m_FarAttachMode: 1
 --- !u!65 &702496660
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3490,7 +3490,7 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
-  m_FarAttachMode: 0
+  m_FarAttachMode: 1
 --- !u!1 &796122535
 GameObject:
   m_ObjectHideFlags: 0
@@ -3966,7 +3966,7 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
-  m_FarAttachMode: 0
+  m_FarAttachMode: 1
 --- !u!1001 &978300325
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8852,7 +8852,7 @@ PrefabInstance:
     - target: {fileID: 4474718619752748518, guid: ff532b862914d1d46b9ff03a5ccfeec4,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.18753546
+      value: -0.21861653
       objectReference: {fileID: 0}
     - target: {fileID: 4674701374643929062, guid: ff532b862914d1d46b9ff03a5ccfeec4,
         type: 3}
