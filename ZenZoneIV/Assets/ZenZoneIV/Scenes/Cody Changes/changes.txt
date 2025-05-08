@@ -1,0 +1,5 @@
+adding functionality for the golf game
+ * renamed the torus torus and not cube
+ * adjusted the size of the golf ball for some reason it was really small
+ * added tags golfhit and golfball
+ * added new golf coliding script is attached as a component to the cube in uhgolfthing 1 which takes a seralized force multipler and upward bias to create the arc.
