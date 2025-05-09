@@ -10,6 +10,7 @@ TagManager:
   - PlayerHand
   - Destroyer
   - ball
+  - golf
   layers:
   - Default
   - TransparentFX
