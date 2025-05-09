@@ -430,7 +430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cc28646c8181ef4f94e7e7562249c36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitForce: 10
+  hitForce: 100
 --- !u!1 &26398053
 GameObject:
   m_ObjectHideFlags: 0
@@ -5177,6 +5177,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Football
+      objectReference: {fileID: 0}
+    - target: {fileID: 3978156976444542998, guid: a8b1655a90145094bbbfdb3ddd350367,
+        type: 3}
+      propertyPath: m_TagString
+      value: golf
       objectReference: {fileID: 0}
     - target: {fileID: 3978156976444542998, guid: a8b1655a90145094bbbfdb3ddd350367,
         type: 3}
@@ -10369,7 +10374,7 @@ PrefabInstance:
     - target: {fileID: 4474718619752748518, guid: ff532b862914d1d46b9ff03a5ccfeec4,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.0940659
+      value: -0.26546973
       objectReference: {fileID: 0}
     - target: {fileID: 4674701374643929062, guid: ff532b862914d1d46b9ff03a5ccfeec4,
         type: 3}

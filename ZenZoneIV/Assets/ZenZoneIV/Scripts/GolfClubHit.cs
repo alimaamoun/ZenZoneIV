@@ -7,18 +7,18 @@ public class GolfClubHit : MonoBehaviour
     public float hitForce = 10f;
 
     // Last frame�s position, for computing swing direction
-    private Vector3 _lastPosition;
+    private Vector3 lastPosition;
 
     private void Start()
     {
         // Record initial position
-        _lastPosition = transform.position;
+        lastPosition = transform.position;
     }
 
     private void FixedUpdate()
     {
         // Update last position each physics step
-        _lastPosition = transform.position;
+        lastPosition = transform.position;
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -31,7 +31,7 @@ public class GolfClubHit : MonoBehaviour
         if (ballRb == null) return;
 
         // Compute swing direction based on club movement
-        Vector3 swingDelta = transform.position - _lastPosition;
+        Vector3 swingDelta = transform.position - lastPosition;
         Vector3 swingDir = swingDelta.normalized;
 
         // If there was essentially no movement, default to the club�s forward
@@ -45,3 +45,6 @@ public class GolfClubHit : MonoBehaviour
         ballRb.AddForce(swingDir * hitForce, ForceMode.Impulse);
     }
 }
+
+
+
