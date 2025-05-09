@@ -24,7 +24,7 @@ public class GolfClubHit : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         // Only act on the ball named "Golf"
-        if (collision.gameObject.name != "Golf") return;
+        if (collision.gameObject.tag != "golf") return;
 
         // Get the ball's Rigidbody
         Rigidbody ballRb = collision.rigidbody;
