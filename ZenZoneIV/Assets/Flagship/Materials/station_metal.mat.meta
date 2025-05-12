@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d45a738b0b998974ba6979f9aa3615f3
+timeCreated: 1512513942
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 105656
+  packageName: The Orbital with OctaneRender for Unity
+  packageVersion: 1.0
+  assetPath: Assets/Flagship/Materials/station_metal.mat
+  uploadId: 316597

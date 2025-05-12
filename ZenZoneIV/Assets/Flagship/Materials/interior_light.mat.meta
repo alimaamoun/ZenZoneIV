@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 366aa12edac7dc1469176daf1955e04e
+timeCreated: 1512515438
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 105656
+  packageName: The Orbital with OctaneRender for Unity
+  packageVersion: 1.0
+  assetPath: Assets/Flagship/Materials/interior_light.mat
+  uploadId: 316597

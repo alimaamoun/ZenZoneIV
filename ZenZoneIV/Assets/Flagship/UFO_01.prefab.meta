@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 8c3f58ee623807d45bbc222246e8207b
+timeCreated: 1512844240
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 105656
+  packageName: The Orbital with OctaneRender for Unity
+  packageVersion: 1.0
+  assetPath: Assets/Flagship/UFO_01.prefab
+  uploadId: 316597

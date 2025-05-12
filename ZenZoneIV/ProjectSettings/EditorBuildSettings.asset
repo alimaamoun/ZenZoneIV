@@ -38,6 +38,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/ZenZoneIV/Scenes/Cody Changes/Icelandia.unity
     guid: ecabebf705e491041843b126e7c69ce4
+  - enabled: 1
+    path: Assets/ZenZoneIV/Scenes/Cody Changes/Fairy Island.unity
+    guid: e8a2ae0bac74e8443a1c52b51598425c
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e3aee76b9372917449aef639e2f74814,
       type: 2}

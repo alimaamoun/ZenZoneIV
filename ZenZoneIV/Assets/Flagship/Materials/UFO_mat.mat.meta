@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 966346db9b9ba80488500af73835598c
+timeCreated: 1512428713
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 105656
+  packageName: The Orbital with OctaneRender for Unity
+  packageVersion: 1.0
+  assetPath: Assets/Flagship/Materials/UFO_mat.mat
+  uploadId: 316597
