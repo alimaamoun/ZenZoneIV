@@ -8017,16 +8017,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Carousel
       objectReference: {fileID: 0}
-    - target: {fileID: 2563762297505500591, guid: f33c52e8a0e4f7e47aff8cbe4c8d6294,
-        type: 3}
-      propertyPath: cards.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2563762297505500591, guid: f33c52e8a0e4f7e47aff8cbe4c8d6294,
-        type: 3}
-      propertyPath: 'cards.Array.data[2]'
-      value: 
-      objectReference: {fileID: 1717305312}
     - target: {fileID: 3036832454775291470, guid: f33c52e8a0e4f7e47aff8cbe4c8d6294,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8078,8 +8068,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 2965935058235381539, guid: f33c52e8a0e4f7e47aff8cbe4c8d6294, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f33c52e8a0e4f7e47aff8cbe4c8d6294, type: 3}
@@ -9644,12 +9633,6 @@ PrefabInstance:
       addedObject: {fileID: 517228448}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8ac85d094d9bf9428e6ee0f2a41971f, type: 3}
---- !u!4 &1717305312 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1337536519490340312, guid: f33c52e8a0e4f7e47aff8cbe4c8d6294,
-    type: 3}
-  m_PrefabInstance: {fileID: 1403150569}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1742798236 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2098338617150506408, guid: e2681bba458c40048bb6e023bff5b20e,
@@ -10241,7 +10224,7 @@ PrefabInstance:
     - target: {fileID: 4474718619752748518, guid: ff532b862914d1d46b9ff03a5ccfeec4,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.24171622
+      value: -0.3171407
       objectReference: {fileID: 0}
     - target: {fileID: 4674701374643929062, guid: ff532b862914d1d46b9ff03a5ccfeec4,
         type: 3}
