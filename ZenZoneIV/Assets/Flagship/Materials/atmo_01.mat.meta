@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: fbad3b730d750f24a8beb0afc52f2d62
+timeCreated: 1512505745
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 105656
+  packageName: The Orbital with OctaneRender for Unity
+  packageVersion: 1.0
+  assetPath: Assets/Flagship/Materials/atmo_01.mat
+  uploadId: 316597

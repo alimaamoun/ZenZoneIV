@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 043c240a0d87e8248a03e9675c146a7e
+timeCreated: 1512422502
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 105656
+  packageName: The Orbital with OctaneRender for Unity
+  packageVersion: 1.0
+  assetPath: Assets/Flagship/Materials/dockingBay_light_mat.mat
+  uploadId: 316597
