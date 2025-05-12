@@ -1,4 +1,7 @@
+using System;
 using UnityEngine;
+using UnityEngine.Events;
+using XRMultiplayer;
 
 [RequireComponent(typeof(Collider))]
 public class GolfClubHit : MonoBehaviour
@@ -8,6 +11,8 @@ public class GolfClubHit : MonoBehaviour
 
     // Last frame�s position, for computing swing direction
     private Vector3 lastPosition;
+
+    public static event Action OnBallHit;
 
     private void Start()
     {
@@ -26,6 +31,8 @@ public class GolfClubHit : MonoBehaviour
         // Only act on the ball named "Golf"
         if (collision.gameObject.tag != "golf") return;
 
+        OnBallHit?.Invoke();
+
         // Get the ball's Rigidbody
         Rigidbody ballRb = collision.rigidbody;
         if (ballRb == null) return;
@@ -33,6 +40,9 @@ public class GolfClubHit : MonoBehaviour
         // Compute swing direction based on club movement
         Vector3 swingDelta = transform.position - lastPosition;
         Vector3 swingDir = swingDelta.normalized;
+
+        // 1) Approach direction
+        //Vector3 swingDir = collision.relativeVelocity.normalized;
 
         // If there was essentially no movement, default to the club�s forward
         if (swingDir == Vector3.zero)
@@ -43,6 +53,8 @@ public class GolfClubHit : MonoBehaviour
 
         // Apply a one-time impulse
         ballRb.AddForce(swingDir * hitForce, ForceMode.Impulse);
+
+        //collision.rigidbody.gameObject.GetComponent<Projectile>
     }
 }
 
