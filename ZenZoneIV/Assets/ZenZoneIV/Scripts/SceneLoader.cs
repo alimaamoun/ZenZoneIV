@@ -22,7 +22,7 @@ public class SceneLoader : MonoBehaviour
     /// <returns>IEnumerator necessary for Coroutines</returns>
     static IEnumerator LoadIslandAsync(string sceneName)
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(1.5f);
         //keep track of async process
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName);
 

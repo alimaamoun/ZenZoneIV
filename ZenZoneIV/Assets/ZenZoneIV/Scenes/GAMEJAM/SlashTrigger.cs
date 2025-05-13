@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using System;
 
 [RequireComponent(typeof(BoxCollider))]
 public class ParticleExplosionTrigger : MonoBehaviour
@@ -13,6 +14,8 @@ public class ParticleExplosionTrigger : MonoBehaviour
     [Tooltip("All these GameObjects will be deactivated when triggered.")]
     [SerializeField]
     private List<GameObject> objectsToHide = new List<GameObject>();
+
+    public static event Action OnGargoyleDestroy;
 
     private void Reset()
     {
@@ -39,5 +42,6 @@ public class ParticleExplosionTrigger : MonoBehaviour
             if (go != null)
                 go.SetActive(false);
         }
+        OnGargoyleDestroy?.Invoke();
     }
 }

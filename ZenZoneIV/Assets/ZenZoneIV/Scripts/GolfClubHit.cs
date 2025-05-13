@@ -15,6 +15,8 @@ public class GolfClubHit : MonoBehaviour
     public static event Action OnGolfBallHit;
     public static event Action OnBaseballHit;
 
+    [SerializeField] AudioSource soundEffect;
+
     bool hasCollision = false;
     Vector3 collisionPoint;
 
@@ -37,17 +39,45 @@ public class GolfClubHit : MonoBehaviour
         if (collision.gameObject.tag == "golf")
         {
             OnGolfBallHit?.Invoke();
+            soundEffect.pitch = 12f;
+            soundEffect.time = .24f;
+            soundEffect.Play();
             hasCollision = true;
         }
         else if (collision.gameObject.CompareTag("baseball"))
         {
             OnBaseballHit?.Invoke();
             hasCollision = true;
+            soundEffect.time = .24f;
+            soundEffect?.Play();
         }
         else if (collision.gameObject.CompareTag("hockey"))
         {
             //OnBaseballHit?.Invoke();
             hasCollision = true;
+
+            // Get the ball's Rigidbody
+            Rigidbody ballRbb = collision.rigidbody;
+            if (ballRbb == null) return;
+
+            // Compute swing direction based on club movement
+            //Vector3 swingDelta = transform.position - lastPosition;
+            //Vector3 swingDir = swingDelta.normalized;
+            collisionPoint = collision.contacts[0].point;
+
+            // 1) Approach direction
+            Vector3 swingDirr = collision.relativeVelocity.normalized;
+
+            // If there was essentially no movement, default to the club�s forward
+            if (swingDirr == Vector3.zero)
+                swingDirr = transform.forward;
+
+            // Zero out any existing ball velocity (so even a tap sends it the same distance)
+            ballRbb.linearVelocity = Vector3.zero;
+
+            // Apply a one-time impulse
+            ballRbb.AddForce(-swingDirr * hitForce, ForceMode.Impulse);
+            return;
         }
         else return;
         

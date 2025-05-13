@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: ZenZone
   productName: ZenZoneZero
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -42,7 +42,7 @@ PlayerSettings:
   m_SplashScreenLogos:
   - logo: {fileID: 0}
     duration: 2
-  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: f5a15390074cab046ad1cccb172aca37,
+  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: af8de3d7bbbe1904a88fd118bfceadb4,
     type: 3}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1024
@@ -144,10 +144,7 @@ PlayerSettings:
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
   bundleVersion: 0.0.1
-  preloadedAssets:
-  - {fileID: 5269706996647393442, guid: e3aee76b9372917449aef639e2f74814, type: 2}
-  - {fileID: 11400000, guid: fd2209bd6d92be444a7fea94f24dc561, type: 2}
-  - {fileID: 3233996788981779080, guid: 87b413c5a910b15498a98200731b1754, type: 2}
+  preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -298,7 +295,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 726899522e5ee9441845c1ee87577163, type: 3}
+      m_Icon: {fileID: 2800000, guid: 0cc9782b2365f8c4598317c2e13a2f8c, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
@@ -551,13 +548,13 @@ PlayerSettings:
     m_Automatic: 1
   - m_BuildTarget: AndroidPlayer
     m_APIs: 15000000
-    m_Automatic: 0
+    m_Automatic: 1
   m_BuildTargetVRSettings: []
   m_DefaultShaderChunkSizeInMB: 16
   m_DefaultShaderChunkCount: 0
-  openGLRequireES31: 0
-  openGLRequireES31AEP: 0
-  openGLRequireES32: 0
+  openGLRequireES31: 1
+  openGLRequireES31AEP: 1
+  openGLRequireES32: 1
   m_TemplateCustomTags: {}
   mobileMTRendering:
     Android: 1
