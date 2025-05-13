@@ -61,7 +61,8 @@ public class MagicBoxActivator : MonoBehaviour
     {
         codyActivated = true;
         ReplaceTreeMaterial(3);
-        codyEffect.Play();
+        codyEffect.gameObject.SetActive(true);
+        //codyEffect.Play();
         codyBox.SetActive(false);
         CheckCompletion();
     }
@@ -70,7 +71,8 @@ public class MagicBoxActivator : MonoBehaviour
     {
         veronicaActivated = true;
         ReplaceTreeMaterial(1);
-        veronicaEffect.Play();
+        veronicaEffect.gameObject.SetActive(true);
+        //veronicaEffect.Play();
         veronicaBox.SetActive(false);
         CheckCompletion();
     }
@@ -79,7 +81,8 @@ public class MagicBoxActivator : MonoBehaviour
     {
         aliActivated = true;
         ReplaceTreeMaterial(2);
-        aliEffect.Play();
+        aliEffect.gameObject.SetActive(true);
+        //aliEffect.Play();
         aliBox.SetActive(false);
         CheckCompletion();
     }

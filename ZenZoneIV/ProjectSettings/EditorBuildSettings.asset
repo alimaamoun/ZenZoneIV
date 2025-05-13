@@ -8,42 +8,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/ZenZoneIV/Scenes/Ali Scenes/Main Menu.unity
     guid: 78e2d5f86d84c5b4d8553e5796f7ca6f
-  - enabled: 0
-    path: Assets/ZenZoneIV/Scenes/Ali Scenes/Spring Island.unity
-    guid: 242db6acbaf261c47bb3709d29a7b60f
   - enabled: 1
-    path: Assets/ZenZoneIV/Scenes/Cody Changes/Spring Island.unity
-    guid: 83ab9c83c62727a41bdeff7d3d5cd7d1
+    path: Assets/ZenZoneIV/Scenes/Ali Scenes/GameJam/Beach.unity
+    guid: 719c0ddc480774a45bd1a6a0d7f4d539
   - enabled: 1
-    path: Assets/ZenZoneIV/Scenes/Ali Scenes/Fairy Island.unity
-    guid: f372e147f60b48441b88bb9d64e2a9e2
+    path: Assets/ZenZoneIV/Scenes/Ali Scenes/GameJam/Fairy Island.unity
+    guid: abe9336d50668b8418106fc4496ebe81
   - enabled: 1
-    path: Assets/ZenZoneIV/Scenes/Ali Scenes/Icelandia.unity
-    guid: 856c27e6fb73fc449a78ba5b7903ba24
-  - enabled: 0
-    path: Assets/ZenZoneIV/Scenes/Ali Scenes/Testing Scene.unity
-    guid: 8cf14b6f28bbde945876752f0ededd1f
-  - enabled: 0
-    path: Assets/ZenZoneIV/Scenes/Ali Scenes/Archive/Spring Island.unity
-    guid: e8c5c5af1bfe5f34789ef22e795e353d
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 13f6f87036926f94ab0417ca1b31725c
-  - enabled: 0
-    path: Assets/Scenes/BasicScene.unity
-    guid: bc761d9a86b33554f85fd11bb1f87ba3
+    path: Assets/ZenZoneIV/Scenes/Ali Scenes/GameJam/Icelandia.unity
+    guid: 47b6af964235d9141a6ebe543e7f1792
+  - enabled: 1
+    path: Assets/ZenZoneIV/Scenes/Ali Scenes/GameJam/Spring Island.unity
+    guid: 06726bb6a9b1a894f9ebdb965d5d8a30
   - enabled: 1
     path: Assets/ZenZoneIV/Scenes/Ali Scenes/Spring Island 5-9.unity
     guid: 8132765c884bd934a92f9a4c470ad404
   - enabled: 1
-    path: Assets/ZenZoneIV/Scenes/Cody Changes/Icelandia.unity
-    guid: ecabebf705e491041843b126e7c69ce4
-  - enabled: 1
-    path: Assets/ZenZoneIV/Scenes/Cody Changes/Fairy Island.unity
-    guid: e8a2ae0bac74e8443a1c52b51598425c
-  - enabled: 1
-    path: Assets/ZenZoneIV/Scenes/Cody Changes/Beach.unity
-    guid: 0ea5063226eedb9418aca6b851277d93
+    path: Assets/ZenZoneIV/Scenes/Cody Changes/Spring Island.unity
+    guid: 72d6e2ab8e6a6b7439a569f43cc13aac
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e3aee76b9372917449aef639e2f74814,
       type: 2}

@@ -11,6 +11,8 @@ TagManager:
   - Destroyer
   - ball
   - golf
+  - baseball
+  - hockey
   layers:
   - Default
   - TransparentFX

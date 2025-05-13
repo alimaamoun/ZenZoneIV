@@ -39,6 +39,16 @@ namespace XRMultiplayer
 
         Rigidbody m_Rigidybody;
 
+        /// <summary>
+        /// Time since the ball was hit, to determine when to respawn
+        /// </summary>
+        float m_timeSinceHit = -1;
+
+        /// <summary>
+        /// Respawn the ball 3 seconds after hit always
+        /// </summary>
+        float m_respawnTime = 3f;
+
 
         /// <summary>
         /// Sets up the projectile with the specified parameters.
@@ -85,6 +95,18 @@ namespace XRMultiplayer
             }
 
             m_PrevPos = transform.position;
+        }
+
+        private void Update()
+        {
+            if (m_timeSinceHit > 0)
+            {
+                if(m_timeSinceHit - Time.time >= m_respawnTime)
+                {
+                    m_timeSinceHit = -1;
+                    ResetProjectile();
+                }
+            }
         }
 
         /// <inheritdoc/>
