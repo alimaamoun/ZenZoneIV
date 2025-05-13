@@ -2,68 +2,112 @@ using UnityEngine;
 using System;
 using System.Collections.Generic;
 using System.Collections;
+using System.Linq;
 
 public class BallSpawner : MonoBehaviour
 {
     [SerializeField] GameObject m_ballPrefab;
-    [SerializeField] Transform m_spawnPosition;
+    [SerializeField] GameObject m_baseballPrefab;
+    [SerializeField] GameObject m_golfballPrefab;
 
-    [SerializeField] int MaxSpawnCount;
+    [SerializeField] Transform m_BaseballSpawnPosition;
+    [SerializeField] Transform m_GolfballSpawnPosition;
+
+    [SerializeField] int MaxSpawnCount = 2;
     int m_spawnCount;
     float m_spawnTime = 3f;
 
     List<GameObject> m_spawnList = new List<GameObject>();
-    Queue<GameObject> m_spawnQueue = new Queue<GameObject>();
+    [SerializeField]Queue<GameObject> m_baseballspawnQueue = new Queue<GameObject>();
+    [SerializeField]Queue<GameObject> m_golfballspawnQueue = new Queue<GameObject>();
 
-    bool m_hasBall = true;
+    [SerializeField]bool m_isSpawningBaseball = false;
+    [SerializeField]bool m_isSpawningGolf = false;
+
+    [SerializeField] bool m_hasBaseball = false;
+    [SerializeField] bool m_hasGolfball = false;
 
     [SerializeField] GameObject current_ball;
 
 
     private void OnEnable()
     {
-        GolfClubHit.OnBallHit += WaitSpawnBall;
+        GolfClubHit.OnBaseballHit += SpawnBaseball;
+        GolfClubHit.OnGolfBallHit += SpawnGolfBall;
     }
     private void OnDisable()
     {
-        GolfClubHit.OnBallHit -= WaitSpawnBall;
+        GolfClubHit.OnBaseballHit -= SpawnBaseball;
+        GolfClubHit.OnGolfBallHit -= SpawnGolfBall;
     }
 
-    bool m_isSpawning = false;
-
-    private void WaitSpawnBall()
+    private void Start()
     {
-        // Only start a new spawn if we’re not already waiting for one
-        if (!m_isSpawning)
-            StartCoroutine(SpawnBall());
+        m_hasBaseball = true;
+        m_hasGolfball = true;
+
     }
 
-    private IEnumerator SpawnBall()
+    private void SpawnBaseball()
     {
-        m_isSpawning = true;
-        m_hasBall = false;
+        m_hasBaseball = false;
+
+        m_ballPrefab = m_baseballPrefab;
+        StartCoroutine(WaitSpawnBaseBall());
+    }
+
+    private void SpawnGolfBall()
+    {
+        m_hasGolfball = false;
+
+        m_baseballPrefab = m_golfballPrefab;
+        StartCoroutine(WaitSpawnGolfBall());
+
+    }
+
+
+    private IEnumerator WaitSpawnBaseBall()
+    {
+        //m_isSpawningBaseball = true;
+        
         yield return new WaitForSeconds(m_spawnTime);
 
-        if (m_spawnCount < MaxSpawnCount)
+        if (!m_hasBaseball)
         {
-            GameObject newBall = Instantiate(m_ballPrefab, m_spawnPosition.position, Quaternion.identity);
-            m_spawnQueue.Enqueue(newBall);
+            GameObject newBall = Instantiate(m_baseballPrefab, m_BaseballSpawnPosition.position, Quaternion.identity);
+            m_baseballspawnQueue.Enqueue(newBall);
             m_spawnCount++;
-            m_hasBall = true;
+            m_hasBaseball = true;
         }
-        else if (m_spawnQueue.TryDequeue(out var oldest))
+        if (m_baseballspawnQueue.Count > MaxSpawnCount && m_baseballspawnQueue.TryDequeue(out var oldest))
         {
+            Debug.LogWarning($"Oldest: {oldest}");
             Destroy(oldest);
-            m_spawnCount--;
         }
 
-        m_isSpawning = false;
+        m_isSpawningBaseball = false;
     }
-
-
-    private IEnumerator Waiting(float seconds)
+    
+    private IEnumerator WaitSpawnGolfBall()
     {
-        yield return new WaitForSeconds(seconds);
+        //m_isSpawningBaseball = true;
+        
+        yield return new WaitForSeconds(m_spawnTime);
 
+        if (!m_hasGolfball)
+        {
+            GameObject newBall = Instantiate(m_golfballPrefab, m_GolfballSpawnPosition.position, Quaternion.identity);
+            m_golfballspawnQueue.Enqueue(newBall);
+            m_spawnCount++;
+            m_hasGolfball = true;
+        }
+        if (m_golfballspawnQueue.Count > MaxSpawnCount && m_golfballspawnQueue.TryDequeue(out var oldest))
+        {
+            Debug.LogWarning($"Oldest: {oldest}");
+            Destroy(oldest);
+        }
+
+        m_isSpawningGolf = false;
     }
+
 }

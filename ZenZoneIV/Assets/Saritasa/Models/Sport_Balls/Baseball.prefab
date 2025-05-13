@@ -11,13 +11,12 @@ GameObject:
   - component: {fileID: 6447903539749146584}
   - component: {fileID: 2145994944161681520}
   - component: {fileID: 2703506869828945867}
-  - component: {fileID: 2287939323292519777}
   - component: {fileID: 1403759145433537591}
-  - component: {fileID: 4700806739968919313}
-  - component: {fileID: 4580566595835029229}
+  - component: {fileID: 1637126423008582789}
+  - component: {fileID: 6921789040991240913}
   m_Layer: 0
   m_Name: Baseball
-  m_TagString: golf
+  m_TagString: baseball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91,7 +90,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!54 &2287939323292519777
+--- !u!135 &1403759145433537591
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3169090002416453430}
+  m_Material: {fileID: 13400000, guid: 22cf6fa31cc97fd4d9844f07d7585e28, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.037999995
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1637126423008582789
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -118,35 +138,14 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &1403759145433537591
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3169090002416453430}
-  m_Material: {fileID: 13400000, guid: 22cf6fa31cc97fd4d9844f07d7585e28, type: 2}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.037999995
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4700806739968919313
+--- !u!114 &6921789040991240913
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3169090002416453430}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
@@ -261,19 +260,6 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
---- !u!114 &4580566595835029229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3169090002416453430}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c17297926f1c854bba8e962219385c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  resetYValue: 0
 --- !u!1 &7758501394593258754
 GameObject:
   m_ObjectHideFlags: 0
