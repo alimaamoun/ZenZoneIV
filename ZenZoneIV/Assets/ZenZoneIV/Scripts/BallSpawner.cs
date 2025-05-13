@@ -52,7 +52,7 @@ public class BallSpawner : MonoBehaviour
     {
         m_hasBaseball = false;
 
-        m_ballPrefab = m_baseballPrefab;
+        //m_ballPrefab = m_baseballPrefab;
         StartCoroutine(WaitSpawnBaseBall());
     }
 
@@ -60,7 +60,7 @@ public class BallSpawner : MonoBehaviour
     {
         m_hasGolfball = false;
 
-        m_baseballPrefab = m_golfballPrefab;
+        //m_ballPrefab = m_golfballPrefab;
         StartCoroutine(WaitSpawnGolfBall());
 
     }

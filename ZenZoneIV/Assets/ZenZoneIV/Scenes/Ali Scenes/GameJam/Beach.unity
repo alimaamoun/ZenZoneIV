@@ -1378,6 +1378,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelLoader
       objectReference: {fileID: 0}
+    - target: {fileID: 4182434894845395229, guid: 0bf967d2f5b60fe498e417b705b7fdca,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8974973001125591944, guid: 0bf967d2f5b60fe498e417b705b7fdca,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6565,6 +6570,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 798368997}
     m_Modifications:
+    - target: {fileID: 43640652825094763, guid: 13f05e5316ece7a4bbe54d56368dc2b0,
+        type: 3}
+      propertyPath: soundEffect
+      value: 
+      objectReference: {fileID: 1580567511}
+    - target: {fileID: 4796816700774449494, guid: 13f05e5316ece7a4bbe54d56368dc2b0,
+        type: 3}
+      propertyPath: m_Name
+      value: uhgolfthing real
+      objectReference: {fileID: 0}
     - target: {fileID: 5321680205027400684, guid: 13f05e5316ece7a4bbe54d56368dc2b0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6615,11 +6630,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4796816700774449494, guid: 13f05e5316ece7a4bbe54d56368dc2b0,
-        type: 3}
-      propertyPath: m_Name
-      value: uhgolfthing real
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6628,6 +6638,12 @@ PrefabInstance:
 --- !u!4 &1580567510 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5321680205027400684, guid: 13f05e5316ece7a4bbe54d56368dc2b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1580567509}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1580567511 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2000791787230648307, guid: 13f05e5316ece7a4bbe54d56368dc2b0,
     type: 3}
   m_PrefabInstance: {fileID: 1580567509}
   m_PrefabAsset: {fileID: 0}

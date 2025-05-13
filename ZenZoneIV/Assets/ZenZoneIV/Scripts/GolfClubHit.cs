@@ -43,6 +43,30 @@ public class GolfClubHit : MonoBehaviour
             soundEffect.time = .24f;
             soundEffect.Play();
             hasCollision = true;
+            // Get the ball's Rigidbody
+            Rigidbody ballRbb = collision.rigidbody;
+            if (ballRbb == null) return;
+
+            // Compute swing direction based on club movement
+            //Vector3 swingDelta = transform.position - lastPosition;
+            //Vector3 swingDir = swingDelta.normalized;
+            collisionPoint = collision.contacts[0].point;
+
+            // 1) Approach direction
+            Vector3 swingDirr = collision.relativeVelocity.normalized;
+
+            // If there was essentially no movement, default to the club�s forward
+            if (swingDirr == Vector3.zero)
+                swingDirr = transform.forward;
+
+            // Zero out any existing ball velocity (so even a tap sends it the same distance)
+            ballRbb.linearVelocity = Vector3.zero;
+
+            // Apply a one-time impulse
+            ballRbb.AddForce(new Vector3(swingDirr.x, 0, 0) * hitForce, ForceMode.Impulse);
+
+            //collision.rigidbody.gameObject.GetComponent<Projectile>
+            return;
         }
         else if (collision.gameObject.CompareTag("baseball"))
         {

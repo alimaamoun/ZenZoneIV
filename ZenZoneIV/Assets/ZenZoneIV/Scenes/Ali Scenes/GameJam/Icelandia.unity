@@ -4557,6 +4557,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1900074287}
     m_Modifications:
+    - target: {fileID: 43640652825094763, guid: 13f05e5316ece7a4bbe54d56368dc2b0,
+        type: 3}
+      propertyPath: soundEffect
+      value: 
+      objectReference: {fileID: 825190111}
+    - target: {fileID: 4796816700774449494, guid: 13f05e5316ece7a4bbe54d56368dc2b0,
+        type: 3}
+      propertyPath: m_Name
+      value: uhgolfthing real
+      objectReference: {fileID: 0}
     - target: {fileID: 5321680205027400684, guid: 13f05e5316ece7a4bbe54d56368dc2b0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4607,11 +4617,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4796816700774449494, guid: 13f05e5316ece7a4bbe54d56368dc2b0,
-        type: 3}
-      propertyPath: m_Name
-      value: uhgolfthing real
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4620,6 +4625,12 @@ PrefabInstance:
 --- !u!4 &825190110 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5321680205027400684, guid: 13f05e5316ece7a4bbe54d56368dc2b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 825190109}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &825190111 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2000791787230648307, guid: 13f05e5316ece7a4bbe54d56368dc2b0,
     type: 3}
   m_PrefabInstance: {fileID: 825190109}
   m_PrefabAsset: {fileID: 0}
