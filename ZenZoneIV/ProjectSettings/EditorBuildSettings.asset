@@ -19,14 +19,17 @@ EditorBuildSettings:
     guid: 47b6af964235d9141a6ebe543e7f1792
   - enabled: 1
     path: Assets/ZenZoneIV/Scenes/Ali Scenes/GameJam/Spring Island.unity
-    guid: 06726bb6a9b1a894f9ebdb965d5d8a30
-  - enabled: 1
-    path: Assets/ZenZoneIV/Scenes/Ali Scenes/Spring Island 5-9.unity
-    guid: 8132765c884bd934a92f9a4c470ad404
+    guid: e256ae74dcbe6f64cb26dcacdf52cac7
   - enabled: 1
     path: Assets/ZenZoneIV/Scenes/GAMEJAM/hell.unity
     guid: 6a500aa38fef5e54b9232919260d576a
-  - enabled: 1
+  - enabled: 0
+    path: Assets/ZenZoneIV/Scenes/Ali Scenes/Spring Island 5-9.unity
+    guid: 8132765c884bd934a92f9a4c470ad404
+  - enabled: 0
+    path: Assets/ZenZoneIV/Scenes/Ali Scenes/Archive/Spring Island 1.unity
+    guid: 06726bb6a9b1a894f9ebdb965d5d8a30
+  - enabled: 0
     path: Assets/ZenZoneIV/Scenes/GAMEJAM/Spring Island.unity
     guid: ce5de0de168c73941851c1080f4dc96a
   m_configObjects:
