@@ -9929,6 +9929,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1507636620937791839, guid: 7097ba7ba649e1f41bba232312bdcbd8,
         type: 3}
+      propertyPath: m_CastShadows
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1507636620937791839, guid: 7097ba7ba649e1f41bba232312bdcbd8,
+        type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 141d9d6ca43b6c843965491604c6deff, type: 2}
@@ -10607,6 +10612,12 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -6912780223649076460, guid: 2c32de6026b77bc4fb84d6047d3e746f, type: 3}
+--- !u!4 &1563417876 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8383550645295993588, guid: 77ac6b10722bcca4a8baf70e44d89e78,
+    type: 3}
+  m_PrefabInstance: {fileID: 978300325}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1600294364
 GameObject:
   m_ObjectHideFlags: 0
@@ -13776,6 +13787,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -0.06179434
       objectReference: {fileID: 0}
+    - target: {fileID: 3695418950077872482, guid: ff532b862914d1d46b9ff03a5ccfeec4,
+        type: 3}
+      propertyPath: m_CameraTransform
+      value: 
+      objectReference: {fileID: 1563417876}
     - target: {fileID: 3793705678241470853, guid: ff532b862914d1d46b9ff03a5ccfeec4,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -13824,7 +13840,7 @@ PrefabInstance:
     - target: {fileID: 4474718619752748518, guid: ff532b862914d1d46b9ff03a5ccfeec4,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.77740246
+      value: 0.7276361
       objectReference: {fileID: 0}
     - target: {fileID: 4674701374643929062, guid: ff532b862914d1d46b9ff03a5ccfeec4,
         type: 3}
