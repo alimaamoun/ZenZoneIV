@@ -15,6 +15,13 @@ public class SceneSelector : MonoBehaviour
     private float lastTapTime;
     private float doubleTapWindow = 0.3f;
 
+    [SerializeField] SceneLoader sceneLoader;
+
+    private void Start()
+    {
+        sceneLoader = FindFirstObjectByType<SceneLoader>();
+    }
+
     /// <summary>
     /// Event hook for activate trigger.
     /// </summary>
@@ -26,7 +33,7 @@ public class SceneSelector : MonoBehaviour
         {
             // Double tap detected       
             Debug.Log("Activated!!!");
-            StartCoroutine(LoadIslandAsync());
+            sceneLoader.LoadIsland(sceneName);
         }
         else
         {
@@ -34,22 +41,5 @@ public class SceneSelector : MonoBehaviour
             lastTapTime = now;
         }
 
-    }
-
-    /// <summary>
-    /// Creates a coroutine to load the scene while we can be able to have a loading screen.
-    /// </summary>
-    /// <returns>IEnumerator necessary for Coroutines</returns>
-    IEnumerator LoadIslandAsync()
-    {
-        //keep track of async process
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName);
-
-        //Wait for asynchronous scene to fully load
-        while (!asyncLoad.isDone)
-        {
-            //loading or zoom in effect 
-            yield return null;
-        }
     }
 }
