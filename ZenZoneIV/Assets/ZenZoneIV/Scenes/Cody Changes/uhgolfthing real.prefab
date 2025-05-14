@@ -241,7 +241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cc28646c8181ef4f94e7e7562249c36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitForce: 100
+  hitForce: 800.3
   soundEffect: {fileID: 2000791787230648307}
 --- !u!114 &4210152365410998487
 MonoBehaviour:
@@ -365,7 +365,7 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
-  m_FarAttachMode: 2
+  m_FarAttachMode: 1
 --- !u!114 &5045040342433340271
 MonoBehaviour:
   m_ObjectHideFlags: 0
