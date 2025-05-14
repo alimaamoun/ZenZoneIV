@@ -11,7 +11,7 @@ public class score : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
 
-            if (other.CompareTag("baseball") || other.CompareTag("golf"))
+            if (other.CompareTag("baseball") || other.CompareTag("golf") || other.CompareTag("Hockey"))
             {
                 if (flash != null)
                 {
