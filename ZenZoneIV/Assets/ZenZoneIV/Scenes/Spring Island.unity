@@ -1095,7 +1095,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flash: {fileID: 688729187}
-  Tag: golf
 --- !u!23 &84092373
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2621,7 +2620,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flash: {fileID: 1930265205}
-  Tag: golf
 --- !u!23 &307790579
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4335,7 +4333,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flash: {fileID: 295597863}
-  Tag: ball
 --- !u!114 &644704353 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5197033953597186853, guid: 77ac6b10722bcca4a8baf70e44d89e78,
@@ -7582,7 +7579,7 @@ PrefabInstance:
     - target: {fileID: 1958760492180525032, guid: c18db94b969bb004f8aa926d27d9fe3e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.125
+      value: 3.678
       objectReference: {fileID: 0}
     - target: {fileID: 1958760492180525032, guid: c18db94b969bb004f8aa926d27d9fe3e,
         type: 3}
@@ -13171,7 +13168,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flash: {fileID: 730692395}
-  Tag: golf
 --- !u!23 &1771654750
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13770,7 +13766,7 @@ PrefabInstance:
     - target: {fileID: 4474718619752748518, guid: ff532b862914d1d46b9ff03a5ccfeec4,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1.9444047
+      value: 1.014897
       objectReference: {fileID: 0}
     - target: {fileID: 4674701374643929062, guid: ff532b862914d1d46b9ff03a5ccfeec4,
         type: 3}
@@ -14524,7 +14520,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flash: {fileID: 251501990}
-  Tag: golf
 --- !u!135 &1897381898
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -14695,7 +14690,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flash: {fileID: 827776756}
-  Tag: golf
 --- !u!23 &1908323695
 MeshRenderer:
   m_ObjectHideFlags: 0

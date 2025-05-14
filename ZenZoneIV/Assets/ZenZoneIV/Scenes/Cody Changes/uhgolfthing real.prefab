@@ -136,7 +136,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4d0a837c8c66f3c44a42677285d53fb2,
         type: 3}
       propertyPath: m_Name
-      value: uhgolfthing 1
+      value: uhgolfthing real
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -242,7 +242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitForce: 100
-  soundEffect: {fileID: 0}
+  soundEffect: {fileID: 2000791787230648307}
 --- !u!114 &4210152365410998487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -365,7 +365,7 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
-  m_FarAttachMode: 1
+  m_FarAttachMode: 2
 --- !u!114 &5045040342433340271
 MonoBehaviour:
   m_ObjectHideFlags: 0

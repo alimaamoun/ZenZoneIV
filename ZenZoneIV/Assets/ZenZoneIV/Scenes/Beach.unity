@@ -1205,7 +1205,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flash: {fileID: 1267170813}
-  Tag: golf
 --- !u!23 &275212368
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1814,11 +1813,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: XR Device Simulator
-      objectReference: {fileID: 0}
-    - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2642,7 +2636,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flash: {fileID: 871372387}
-  Tag: golf
 --- !u!23 &887243988
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4325,7 +4318,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flash: {fileID: 1226253424}
-  Tag: golf
 --- !u!23 &1158473712
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4447,7 +4439,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flash: {fileID: 85683183}
-  Tag: golf
 --- !u!23 &1170454355
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4913,7 +4904,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flash: {fileID: 1390716952}
-  Tag: ball
 --- !u!65 &1255182154
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7592,7 +7582,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flash: {fileID: 1059813930}
-  Tag: golf
 --- !u!23 &1932440108
 MeshRenderer:
   m_ObjectHideFlags: 0
