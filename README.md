@@ -1,5 +1,7 @@
 # Zen Zone 0 – Architecture and Design
 
+https://youtu.be/GuagYjaUgU4
+
 ## Introduction
 **Zen Zone 0** is a calming VR space created for COMP 565. It offers relaxing environments, immersive sounds, interactive games, and hidden easter eggs for discovery. Users navigate through themed islands using a VR carousel interface, each island providing a unique interactive experience designed to promote tranquility and engagement.
 
